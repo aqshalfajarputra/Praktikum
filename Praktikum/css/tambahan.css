@@ -1,0 +1,205 @@
+/*!
+ * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+  font-family: "SketchFlow Print";
+}
+
+.judul {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+.margin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.jarak{
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+.text-muted {
+  color: #777777;
+
+}
+.text-primary {
+  color: #000000;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+  text-decoration: none;
+}
+
+nav div ul li a:hover,
+nav div ul li a.active {
+  outline: none;
+  text-decoration: none;
+    background-color: #000000;
+}
+
+
+.apik {
+  color: rgb(251, 249, 0);
+}
+.apik:hover,
+.apik:focus,
+.apik:active,
+.apik.active {
+  color: rgb(97, 53, 1);
+}
+
+.jos {
+  color: rgb(97, 223, 46);
+}
+.jos:hover,
+.jos:focus,
+.jos:active,
+.jos.active {
+  color: rgb(74, 195, 9)  ;
+}
+
+audio {
+    width: 400px
+}
+
+.bg-light-gray {
+  background-color: #eeeeee;
+}
+.bg-darkest-gray {
+  background-color: #222222;
+}
+
+.bg-medium-gray {
+  background-color: #777777;
+}
+.text-shadow-custom{
+  text-shadow:  1px 1px 1px #000000;
+}
+
+button{
+  color: rgb(251, 249, 0);
+}
+
+button:hover,
+button:focus,
+button:active,
+button.active {
+  color: rgb(97, 53, 1);
+}
+.img-centered {
+  margin: 0px auto;
+}
+header {
+  background-image: url('../image/1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+ #contact{
+  background-image: url('../image/contact.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Arial";
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Arial";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Arial"    ;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Arial";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+
+nav {
+  position: fixed;
+}
+
+
+.thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.thumbnail img {
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.thumbnail {
+    overflow: hidden;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+
+}
+
+.lebar{
+width: 500px;
+margin: 0px auto;
+padding-top: 30px;
+
+}
